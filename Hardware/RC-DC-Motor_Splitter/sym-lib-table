@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name RC-DC-Motor_Splitter_symbols)(type Legacy)(uri ${KIPRJMOD}/Libraries/RC-DC-Motor_Splitter_symbols.lib)(options "")(descr ""))
+)
