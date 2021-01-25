@@ -54,6 +54,7 @@ F 0 "U2" H 6800 2150 50  0000 C CNN
 F 1 "LV8548MC_Dual_HBridge_SOIC10" H 6800 2050 50  0000 C CNN
 F 2 "RC-DC-Motor_Splitter_footprints:SOIC-10_3.9x4.9mm_P1.00mm" H 5900 1450 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/LV8548MC-D.PDF" H 5900 1450 50  0001 C CNN
+F 4 "C19950" H 0   0   50  0001 C CNN "LCSC"
 	1    6100 1750
 	1    0    0    -1  
 $EndComp
@@ -65,6 +66,7 @@ F 0 "U1" H 1850 3300 50  0000 C CNN
 F 1 "ATtiny416-S" H 1900 3200 50  0000 C CNN
 F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 2350 2250 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001913A.pdf" H 2350 2250 50  0001 C CNN
+F 4 "C145622" H 2350 2250 50  0001 C CNN "LCSC"
 	1    2350 2250
 	1    0    0    -1  
 $EndComp
@@ -76,6 +78,7 @@ F 0 "U2" H 7100 3200 50  0000 C CNN
 F 1 "LV8548MC_Dual_HBridge_SOIC10" H 7100 3100 50  0000 C CNN
 F 2 "RC-DC-Motor_Splitter_footprints:SOIC-10_3.9x4.9mm_P1.00mm" H 5900 2450 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/LV8548MC-D.PDF" H 5900 2450 50  0001 C CNN
+F 4 "C19950" H 0   0   50  0001 C CNN "LCSC"
 	2    6100 2750
 	1    0    0    -1  
 $EndComp
@@ -155,11 +158,11 @@ F 3 "" H 6100 2450 50  0001 C CNN
 	1    6100 2450
 	1    0    0    -1  
 $EndComp
-Text GLabel 2950 1850 2    50   Input ~ 0
+Text GLabel 3300 1750 2    50   Input ~ 0
 Motor1_In1
-Text GLabel 2950 1750 2    50   Input ~ 0
+Text GLabel 3300 1650 2    50   Input ~ 0
 Motor1_In2
-Text GLabel 2950 1650 2    50   Input ~ 0
+Text GLabel 2950 1850 2    50   Input ~ 0
 Motor2_In1
 Text GLabel 1750 2750 0    50   Input ~ 0
 Motor2_In2
@@ -171,6 +174,7 @@ F 0 "U3" H 6800 4300 50  0000 C CNN
 F 1 "LV8548MC_Dual_HBridge_SOIC10" H 6800 4200 50  0000 C CNN
 F 2 "RC-DC-Motor_Splitter_footprints:SOIC-10_3.9x4.9mm_P1.00mm" H 5900 3600 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/LV8548MC-D.PDF" H 5900 3600 50  0001 C CNN
+F 4 "C19950" H 0   0   50  0001 C CNN "LCSC"
 	1    6100 3900
 	1    0    0    -1  
 $EndComp
@@ -182,6 +186,7 @@ F 0 "U3" H 7100 5350 50  0000 C CNN
 F 1 "LV8548MC_Dual_HBridge_SOIC10" H 7100 5250 50  0000 C CNN
 F 2 "RC-DC-Motor_Splitter_footprints:SOIC-10_3.9x4.9mm_P1.00mm" H 5900 4600 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/LV8548MC-D.PDF" H 5900 4600 50  0001 C CNN
+F 4 "C19950" H 0   0   50  0001 C CNN "LCSC"
 	2    6100 4900
 	1    0    0    -1  
 $EndComp
@@ -253,6 +258,7 @@ F 0 "U4" H 9600 3100 50  0000 C CNN
 F 1 "LV8548MC_Dual_HBridge_SOIC10" H 9600 3000 50  0000 C CNN
 F 2 "RC-DC-Motor_Splitter_footprints:SOIC-10_3.9x4.9mm_P1.00mm" H 8700 2400 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/LV8548MC-D.PDF" H 8700 2400 50  0001 C CNN
+F 4 "C19950" H 0   0   50  0001 C CNN "LCSC"
 	1    8900 2700
 	1    0    0    -1  
 $EndComp
@@ -264,6 +270,7 @@ F 0 "U4" H 9900 4150 50  0000 C CNN
 F 1 "LV8548MC_Dual_HBridge_SOIC10" H 9900 4050 50  0000 C CNN
 F 2 "RC-DC-Motor_Splitter_footprints:SOIC-10_3.9x4.9mm_P1.00mm" H 8700 3400 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/LV8548MC-D.PDF" H 8700 3400 50  0001 C CNN
+F 4 "C19950" H 0   0   50  0001 C CNN "LCSC"
 	2    8900 3700
 	1    0    0    -1  
 $EndComp
@@ -429,8 +436,9 @@ U 1 1 600C7A0D
 P 2600 4050
 F 0 "SW1" H 2600 4517 50  0000 C CNN
 F 1 "SW_DIP_x04" H 2600 4426 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_Copal_CHS-04B_W7.62mm_P1.27mm" H 2600 4050 50  0001 C CNN
+F 2 "RC-DC-Motor_Splitter_footprints:SOIC-8-Extended_pads_dip-switch" H 2600 4050 50  0001 C CNN
 F 3 "~" H 2600 4050 50  0001 C CNN
+F 4 " C132838" H 2600 4050 50  0001 C CNN "LCSC"
 	1    2600 4050
 	1    0    0    -1  
 $EndComp
@@ -470,19 +478,8 @@ $EndComp
 Wire Wire Line
 	2900 4200 2900 4150
 Connection ~ 2900 4150
-Text GLabel 4000 2750 0    50   Input ~ 0
+Text GLabel 4250 3650 0    50   Input ~ 0
 UPDI
-$Comp
-L Connector_Generic:Conn_01x01 J1
-U 1 1 600D625F
-P 4200 2750
-F 0 "J1" H 4280 2792 50  0000 L CNN
-F 1 "Conn_01x01" H 4280 2701 50  0000 L CNN
-F 2 "RC-DC-Motor_Splitter_footprints:Single_Pad" H 4200 2750 50  0001 C CNN
-F 3 "~" H 4200 2750 50  0001 C CNN
-	1    4200 2750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 600DB784
@@ -580,10 +577,10 @@ F 3 "~" H 4200 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J6
 U 1 1 600EAB63
 P 4200 2300
-F 0 "J?" H 4280 2342 50  0000 L CNN
+F 0 "J6" H 4280 2342 50  0000 L CNN
 F 1 "Conn_01x01" H 4280 2251 50  0000 L CNN
 F 2 "RC-DC-Motor_Splitter_footprints:Single_Pad" H 4200 2300 50  0001 C CNN
 F 3 "~" H 4200 2300 50  0001 C CNN
@@ -591,14 +588,112 @@ F 3 "~" H 4200 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J11
 U 1 1 600EAF31
 P 4200 2500
-F 0 "J?" H 4280 2542 50  0000 L CNN
+F 0 "J11" H 4280 2542 50  0000 L CNN
 F 1 "Conn_01x01" H 4280 2451 50  0000 L CNN
 F 2 "RC-DC-Motor_Splitter_footprints:Single_Pad" H 4200 2500 50  0001 C CNN
 F 3 "~" H 4200 2500 50  0001 C CNN
 	1    4200 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1650 3200 1650
+Wire Wire Line
+	2950 1750 3250 1750
+Text GLabel 3400 1500 2    50   Input ~ 0
+UART_Rx
+Text GLabel 3400 1400 2    50   Input ~ 0
+UART_Tx
+Wire Wire Line
+	3200 1650 3200 1400
+Wire Wire Line
+	3200 1400 3400 1400
+Connection ~ 3200 1650
+Wire Wire Line
+	3200 1650 2950 1650
+Wire Wire Line
+	3250 1750 3250 1500
+Wire Wire Line
+	3250 1500 3400 1500
+Connection ~ 3250 1750
+Wire Wire Line
+	3250 1750 3300 1750
+Text GLabel 4250 3550 0    50   Input ~ 0
+UART_Tx
+Text GLabel 4250 3450 0    50   Input ~ 0
+UART_Rx
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 600EF9A3
+P 4450 3450
+F 0 "J1" H 4530 3492 50  0000 L CNN
+F 1 "Conn_01x05" H 4530 3401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4450 3450 50  0001 C CNN
+F 3 "~" H 4450 3450 50  0001 C CNN
+	1    4450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0117
+U 1 1 600F0E17
+P 3750 3250
+F 0 "#PWR0117" H 3750 3100 50  0001 C CNN
+F 1 "+5V" H 3765 3423 50  0000 C CNN
+F 2 "" H 3750 3250 50  0001 C CNN
+F 3 "" H 3750 3250 50  0001 C CNN
+	1    3750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 600F155C
+P 3750 3400
+F 0 "#PWR0118" H 3750 3150 50  0001 C CNN
+F 1 "GND" H 3755 3227 50  0000 C CNN
+F 2 "" H 3750 3400 50  0001 C CNN
+F 3 "" H 3750 3400 50  0001 C CNN
+	1    3750 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3400 3750 3350
+Wire Wire Line
+	3750 3350 4250 3350
+Wire Wire Line
+	3750 3250 4250 3250
+$Comp
+L Device:C C2
+U 1 1 601029A3
+P 800 1800
+F 0 "C2" H 915 1846 50  0000 L CNN
+F 1 "2.2uf" H 915 1755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 838 1650 50  0001 C CNN
+F 3 "~" H 800 1800 50  0001 C CNN
+	1    800  1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 601029AF
+P 800 1950
+F 0 "#PWR0123" H 800 1700 50  0001 C CNN
+F 1 "GND" H 805 1777 50  0000 C CNN
+F 2 "" H 800 1950 50  0001 C CNN
+F 3 "" H 800 1950 50  0001 C CNN
+	1    800  1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 600F6DAE
+P 800 1650
+F 0 "#PWR?" H 800 1500 50  0001 C CNN
+F 1 "+12V" H 815 1823 50  0000 C CNN
+F 2 "" H 800 1650 50  0001 C CNN
+F 3 "" H 800 1650 50  0001 C CNN
+	1    800  1650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
