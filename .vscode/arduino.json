@@ -1,0 +1,4 @@
+{
+    "board": "megaTinyCore:megaavr:atxy6",
+    "configuration": "serialevent=no,chip=816,clock=20internal,bodvoltage=1v8,bodmode=disabled,eesave=enable,millis=enabled,resetpin=UPDI,startuptime=8,uartvoltage=5v"
+}
